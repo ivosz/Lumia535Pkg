@@ -47,7 +47,7 @@
 #define FB_ADDR                 0x400000
 #endif
 
-#define FB_ADDR_REG             0xFD990008 //0xFD901E14 
+#define FB_ADDR_REG             0x5190008 //0x5190008
 #define FB_NEW_ADDR             FixedPcdGet32(PcdMipiFrameBufferAddress)
 
 UINT64 mSystemMemoryEnd = FixedPcdGet64(PcdSystemMemoryBase) +
@@ -68,7 +68,7 @@ UartInit
 
 
     SerialPortInitialize();
-    DEBUG ((EFI_D_ERROR, "\nTianoCore on Microsoft Lumia 535 (ARM)\n"));
+    DEBUG ((EFI_D_ERROR, "\nTianoCore on Microsoft Lumia 625 (ARM)\n"));
     DEBUG ((EFI_D_ERROR,  "Firmware version %s built %a %a\n\n",
 	        (CHAR16*) PcdGetPtr(PcdFirmwareVersionString),
 			        __TIME__,
