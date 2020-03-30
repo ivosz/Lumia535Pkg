@@ -22,7 +22,7 @@
 
 [PcdsFixedAtBuild.common]
   # Simple FrameBuffer
-  gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x51900080|UINT32|0x30
+  gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x1CD00000|UINT32|0x30
   gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|480|UINT32|0x31
   gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|800|UINT32|0x32
   gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|22|UINT32|0x33
