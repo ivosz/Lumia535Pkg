@@ -34,7 +34,7 @@
   gArmPlatformTokenSpaceGuid.PcdCPUCoreSecondaryStackSize|0x10000|UINT32|0x00000039
  # Memory allocation
   gLumia535PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x20000000|UINT64|0x00000a106
-  gLumia535PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000|UINT32|0x00000a107
+  gLumia535PkgTokenSpaceGuid.PcdUefiMemPoolSize|0xA5C00000|UINT32|0x00000a107
 
   # QTimer
   gQcomTokenSpaceGuid.PcdQTimerBase|0xF9021000|UINT64|0x00000050
